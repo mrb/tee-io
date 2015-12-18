@@ -2,6 +2,9 @@ engines:
   hlint:
     enabled: true
 
+exclude_paths:
+  - test/**/*
+  
 ratings:
   paths:
   - "**.hs"
